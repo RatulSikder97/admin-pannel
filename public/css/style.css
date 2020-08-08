@@ -1,0 +1,74 @@
+/* ================= */
+/* Basic Setup */
+/* ================= */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+/* ================== */
+/* Re-Usable */
+/* ================== */
+
+.container{
+    display: flex;
+    background: url("/public/img/bg.jpg") no-repeat fixed center center;
+    background-size: cover;
+    padding: 5.5rem;
+}
+
+/* ================== */
+/* Side navbar */
+/* ================== */
+
+.side-nav{
+    height: 100%;
+    width: 12rem; 
+    text-align: center;
+    font-size: 4rem;  
+}
+
+.side-nav ul{
+    list-style-type: none;
+    
+}
+
+
+.side-nav ul li{
+   height: 9rem;
+   background: #fff;
+   border-bottom: 0.2rem solid #e3e3e3;
+   padding: 1.5rem;
+}
+
+.side-nav ul li a:hover{
+    color: rgb(20, 183, 233);
+}
+
+.side-nav ul li:first-child{
+    border-radius: 0.5rem 0.5rem 0 0 ;
+}
+
+.side-nav ul li:last-child{
+    border: none;
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.side-nav ul li p{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.side-nav a{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: #bbbbbb;
+}
