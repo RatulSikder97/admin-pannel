@@ -10,6 +10,9 @@
     <!-- FONT AWESOME  -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <!-- VENDORS CSS -->
+    <!-- <link rel="stylesheet" href="/vendor/css/grid.css"> -->
+
     <!-- Public Resource -->
     <link rel="stylesheet" href="/public/css/style.css">
     <title>Admin Pannel</title>
@@ -17,7 +20,7 @@
 
 <body>
     <div class="container">
-        <section class="side-nav">
+        <div class="side-nav clearfix">
             <ul>
                 <li>
                     <a href="#">
@@ -85,7 +88,32 @@
                     </a>
                 </li>
             </ul>
+
+        </div>
+        <!-- SIDE NAV END -->
+
+        <!--START Main Section -->
+        <section class="main-section">
+            <div class="search box">
+                <form action="#">
+                    <input type="text" name="search" id="search" placeholder="Search">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </form>
+            </div>
+
+            <div class="user-description box">
+                <img src="/public/img/img.png" alt="user-photo">
+                <h4>Welcome, Ratul Sikder</h4>
+                <ul>
+                    <li><i class="fa fa-envelope" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-bell" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-cog" aria-hidden="true"></i></li>
+                </ul>
+
+            </div>
         </section>
+        <!--END Main Section -->
+
 
     </div>
 
