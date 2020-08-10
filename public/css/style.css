@@ -12,7 +12,7 @@
 html {
     font-size: 62.5%;
     text-transform: capitalize;
-
+    
 }
 
 
@@ -21,7 +21,7 @@ html {
 /* ================== */
 
 .container {
-    display: flex;
+    
     background: url("/public/img/bg.jpg") no-repeat fixed center center;
     background-size: cover;
     padding: 5.5rem;
@@ -34,23 +34,24 @@ html {
     display: table;
 }
 
-.box {
-    display: inline-block;
-    margin-left: 2rem;
+.box
+{
+    
+    margin-left: 2rem ;
 }
 
-.box::after {
+.box::after{
     content: "";
     clear: both;
     display: table;
 
 }
-
 /* ================== */
 /* Side navbar */
 /* ================== */
 
 .side-nav {
+    float: left;
     height: 100%;
     width: 12rem;
     text-align: center;
@@ -125,111 +126,125 @@ html {
 /* UPPER SECTION */
 /* ======================= */
 
-.main-section {
+.upper-section{
     display: flex;
-    width: 100%;
     height: 5rem;
     font-size: 1.5rem;
     font-weight: 600;
     color: #aaa;
-    justify-content: space-between;
 }
+
+
 
 .search {
     width: 39rem;
+    
 }
 
-.search form {
+.search form{
     position: relative;
-
 }
-
-.search form input {
+.search form input{
     width: 100%;
     height: 5rem;
-    position: relative;
-    padding-left: 2rem;
     border: none;
     border-radius: 0.5rem;
+    padding-left: 2rem;
+   
 }
 
-.search form input::placeholder {
+.search input::placeholder{
     color: #aaa;
-    font-size: 1.5rem;
     font-weight: 600;
+
+}
+.search input:focus{
+    outline: none;
 }
 
-.search i {
+.search form i{
     position: absolute;
+    margin-top: 1.7rem;
     right: 2rem;
-    top: 35%;
 }
 
 /* =================== */
-/* user section */
+/* user info */
 /* =================== */
 
-.user-description {
-    flex-grow: 1;
-    height: 5rem;
-    width: 49rem;
-    background: #fff;
+.user-description
+{
+    
     display: flex;
-    position: relative;
+    flex-grow: 1;
+    background: #fff;
     border-radius: 0.5rem;
+    min-width: 49rem;
+    position: relative;
 }
 
-.user-description img {
+.user-description img{
     height: 3rem;
     width: 3rem;
     margin: 1rem;
 }
 
-
-
-.user-description ul,
-.user-description ul li {
+.user-description h4{
+    margin: 1.7rem 1rem;
+}
+.user-description ul{
     display: flex;
-
+   text-align: center;
+   position: absolute;
+   right: 0;
+   top: 0;
 }
 
-.user-description ul {
-    margin-left: 5rem;
-    position: absolute;
-    right: 0;
-    height: 100%;
-}
-
-.user-description ul li {
-    width: 8rem;
-    height: 100%;
+.user-description ul li{
     border-left: 0.1rem solid #aaa;
     font-size: 2rem;
-    justify-content: center;
-    align-items: center;
-}
-
-.user-description h4 {
-    padding: 1.7rem 0;
-}
-
-/* logout Button */
-.logout {
+    width: 8rem;
     height: 5rem;
-    width: 13.5rem;
-
-    text-align: center;
+    padding-top: 1.5rem;    
 }
 
-.logout a {
-    width: 13.5rem;
-    display: inline-block;
-    background-color: #c9452b;
+.logout{
+    background: #c9452b;
+    width: 13rem;
+    height: 100%;
     border-radius: 0.5rem;
+    text-align: center;
+      
     padding: 1.7rem 0;
-
 }
 
-.logout a:hover{
-    background: #ee831e;
+.logout a{
+    color: #fff;
 }
+
+
+
+/* =============== */
+/* reportsection */
+
+.report-section{
+    display: flex;
+    margin-top: 2rem;  
+    height: 74rem;  
+}
+
+.report{
+    flex-grow: 1;
+    width: 75rem;
+    height: 100%;
+    background: #aaa;
+    border-radius: 0.5rem;
+}
+
+.right-side{
+    width: 29rem;
+    height: 100%;
+    background: #c9452b;
+    border-radius: 0.5rem;
+}
+
