@@ -352,9 +352,20 @@ html {
     border-radius: 0.5rem;
     color: #fff;
     padding: 2rem;
+    font-weight: 600;
 }
 
 .balance-description .title{
     font-size: 1.8rem;
-    font-weight: 600;
+   
 }
+.balance-description .money{
+    font-size: 3.5rem;
+}
+
+.money img{
+    margin-left: 4rem;
+}
+
+
+
