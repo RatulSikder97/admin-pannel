@@ -1,7 +1,7 @@
 /* ================= */
 /* Basic Setup */
 /* ================= */
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,7 +12,7 @@
 html {
     font-size: 62.5%;
     text-transform: capitalize;
-    
+
 }
 
 
@@ -21,7 +21,7 @@ html {
 /* ================== */
 
 .container {
-    
+
     background: url("/public/img/bg.jpg") no-repeat fixed center center;
     background-size: cover;
     padding: 5.5rem;
@@ -34,13 +34,12 @@ html {
     display: table;
 }
 
-.box
-{
-    
-    margin-left: 2rem ;
+.box {
+
+    margin-left: 2rem;
 }
 
-.box::after{
+.box::after {
     content: "";
     clear: both;
     display: table;
@@ -48,17 +47,18 @@ html {
 }
 
 
-.text-green{
+.text-green {
     color: #71ad49;
 }
 
-.text-warn{
+.text-warn {
     color: #dd4343;
 }
-.title{
+
+.title {
     font-size: 1.8rem;
     font-weight: 600;
-    color: #fff;  
+    color: #fff;
 }
 
 /* ================== */
@@ -141,7 +141,7 @@ html {
 /* UPPER SECTION */
 /* ======================= */
 
-.upper-section{
+.upper-section {
     display: flex;
     height: 5rem;
     font-size: 1.5rem;
@@ -153,31 +153,33 @@ html {
 
 .search {
     width: 39rem;
-    
+
 }
 
-.search form{
+.search form {
     position: relative;
 }
-.search form input{
+
+.search form input {
     width: 100%;
     height: 5rem;
     border: none;
     border-radius: 0.5rem;
     padding-left: 2rem;
-   
+
 }
 
-.search input::placeholder{
+.search input::placeholder {
     color: #aaa;
     font-weight: 600;
 
 }
-.search input:focus{
+
+.search input:focus {
     outline: none;
 }
 
-.search form i{
+.search form i {
     position: absolute;
     margin-top: 1.7rem;
     right: 2rem;
@@ -187,9 +189,8 @@ html {
 /* user info */
 /* =================== */
 
-.user-description
-{
-    
+.user-description {
+
     display: flex;
     flex-grow: 1;
     background: #fff;
@@ -198,42 +199,43 @@ html {
     position: relative;
 }
 
-.user-description img{
+.user-description img {
     height: 3rem;
     width: 3rem;
     margin: 1rem;
 }
 
-.user-description h4{
+.user-description h4 {
     margin: 1.7rem 1rem;
 }
-.user-description ul{
+
+.user-description ul {
     display: flex;
-   text-align: center;
-   position: absolute;
-   right: 0;
-   top: 0;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
-.user-description ul li{
+.user-description ul li {
     border-left: 0.1rem solid #aaa;
     font-size: 2rem;
     width: 8rem;
     height: 5rem;
-    padding-top: 1.5rem;    
+    padding-top: 1.5rem;
 }
 
-.logout{
+.logout {
     background: #c9452b;
     width: 13rem;
     height: 100%;
     border-radius: 0.5rem;
     text-align: center;
-      
+
     padding: 1.7rem 0;
 }
 
-.logout a{
+.logout a {
     color: #fff;
 }
 
@@ -242,22 +244,22 @@ html {
 /* =============== */
 /* reportsection */
 
-.report-section{
+.report-section {
     display: flex;
-    margin-top: 2rem;  
-    height: 74rem;  
+    margin-top: 2rem;
+    height: 74rem;
 }
 
-.report{
+.report {
     flex-grow: 1;
     width: 75rem;
     height: 100%;
     background: #aaa;
     border-radius: 0.5rem;
-    
+
 }
 
-.report .line-chart{
+.report .line-chart {
     width: 100%;
     height: 25rem;
     background: #504b41;
@@ -265,8 +267,7 @@ html {
     border-radius: 0.5rem 0.5rem 0 0;
 }
 
-.report .option-bar
-{   
+.report .option-bar {
     height: 4rem;
     background: #767066;
     font-size: 1.6rem;
@@ -277,44 +278,48 @@ html {
 }
 
 .option-bar p,
-.option-bar .see-all{
+.option-bar .see-all {
     display: inline-block;
-   
+
 }
-.see-all{
+
+.see-all {
     position: absolute;
     right: 2rem;
-    
+
 }
-.see-all a{
+
+.see-all a {
     color: #d4cbbc;
 }
-.see-all a span{
+
+.see-all a span {
     margin-left: 0.5rem;
 }
 
-.activity{
+.activity {
     line-height: 2rem;
     width: 100%;
 }
 
-.activity h2{
+.activity h2 {
     font-size: 1.8rem;
     margin-bottom: 0.4rem;
-    
+
 }
 
-.activity p{
+.activity p {
     font-size: 1.3rem;
     color: #939393;
 }
 
-.activity ul{
-   position: relative;
+.activity ul {
+    position: relative;
     width: 100%;
-   
+
 }
-.activity ul li{
+
+.activity ul li {
     height: 9rem;
     width: 100%;
     background: #fff;
@@ -322,21 +327,23 @@ html {
     border-bottom: 0.1rem solid #e3e3e3;
 }
 
-.activity ul li:last-child{
+.activity ul li:last-child {
     border-radius: 0 0 0.5rem 0.5rem;
 }
+
 .activity ul li .activity-description,
-.activity ul li .costing{
+.activity ul li .costing {
     display: inline-block;
 
 }
-.activity ul li .activity-description h2{
+
+.activity ul li .activity-description h2 {
     color: #2f2f2f;
 }
 
 
 
-.costing{
+.costing {
     position: absolute;
     right: 2rem;
 }
@@ -344,15 +351,15 @@ html {
 /* ================== */
 /* right section */
 /* =================== */
-.right-side{
+.right-side {
     width: 29rem;
     height: 100%;
-    
+
     border-radius: 0.5rem;
 }
 
 
-.balance{
+.balance {
     height: 10rem;
     background: #638e43;
     border-radius: 0.5rem;
@@ -361,15 +368,16 @@ html {
     font-weight: 600;
 }
 
-.balance-description .title{
+.balance-description .title {
     font-size: 1.8rem;
-   
+
 }
-.balance-description .money{
+
+.balance-description .money {
     font-size: 3.5rem;
 }
 
-.money img{
+.money img {
     margin-left: 4rem;
 }
 
@@ -377,30 +385,43 @@ html {
 /* Quick link */
 /* ================ */
 
-.quicklink{
+.quicklink {
     margin-top: 2rem;
     height: 27.5rem;
-    
+
 
 }
 
-.quicklink .title{
+.quicklink .title {
     background: #7d7d7d;
     height: 5rem;
     width: 100%;
     padding: 1.6rem 2rem;
     display: inline-block;
-    border-radius: 0.5rem 0.5rem 0 0 ;
+    border-radius: 0.5rem 0.5rem 0 0;
+    position: relative;
+    z-index: 9999;
 }
 
-.quicklink ul{
-     width: 100%;
-     height: 100%;
- }
+.quicklink .title:after {
+    content: " ";
 
- .quicklink ul li{
-     position: relative;
-     display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 10%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #7d7d7d transparent transparent transparent;
+}
+
+.quicklink ul {
+    width: 100%;
+    height: auto;
+}
+
+.quicklink ul li {
+    position: relative;
+    display: inline-block;
     width: 100%;
     height: 4.5rem;
     font-size: 1.4rem;
@@ -409,16 +430,104 @@ html {
     border-bottom: 0.1rem solid #e3e3e3;
     color: #aaa;
     padding: 1.55rem 2rem;
- }
- .quicklink ul li:last-child{
-     border-radius: 0 0 0.5rem 0.5rem;
- }
+}
 
- .quicklink ul li p{
-     display: inline-block;
- }
- .quicklink ul li i{
-     position: absolute;
-     right: 2rem;
- }
- 
+.quicklink ul li:last-child {
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.quicklink ul li p {
+    display: inline-block;
+}
+
+.quicklink ul li i {
+    position: absolute;
+    right: 2rem;
+}
+
+/* ================== */
+/* customer-support */
+/* ================== */
+
+.customer-support {
+    margin-top: 2rem;
+    width: 100%;
+    height: 32.5rem;
+    background: #fff;
+    border-radius: 0.5rem;
+
+}
+
+.customer-support .title {
+    background: #d77b31;
+    height: 5rem;
+    width: 100%;
+    padding: 1.6rem 2rem;
+    display: inline-block;
+    border-radius: 0.5rem 0.5rem 0 0;
+    position: relative;
+    z-index: 9999;
+}
+
+.customer-support .title:after {
+    content: " ";
+
+    position: absolute;
+    top: 100%;
+    left: 10%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #d77b31 transparent transparent transparent;
+}
+
+.customer-support form {
+    display: inline-block;
+    margin-left: 2rem;
+    width: 24rem;
+    position: relative;
+}
+
+.customer-support form input[type="text"],
+.customer-support form input[type="email"] {
+    display: inline-block;
+    border: none;
+    border-radius: 0.5rem;
+    background: #f1f1f1;
+    width: 24rem;
+    height: 3.5rem;
+    margin: 2rem 0 0 0;
+    padding-left: 2rem;
+
+
+}
+
+.customer-support form ::placeholder {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #aaa;
+}
+
+#comment {
+    height: 7rem;
+    position: relative;
+}
+
+input#comment::placeholder {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+
+form .btn {
+    margin-top: 2rem;
+    height: 3rem;
+    width: 7rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #d77b31;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 600;
+    float: right;
+
+}
