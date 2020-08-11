@@ -46,6 +46,16 @@ html {
     display: table;
 
 }
+
+
+.text-green{
+    color: #71ad49;
+}
+
+.text-warn{
+    color: #dd4343;
+}
+
 /* ================== */
 /* Side navbar */
 /* ================== */
@@ -239,12 +249,112 @@ html {
     height: 100%;
     background: #aaa;
     border-radius: 0.5rem;
+    
 }
 
+.report .line-chart{
+    width: 100%;
+    height: 25rem;
+    background: #504b41;
+    color: #fff;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.report .option-bar
+{   
+    height: 4rem;
+    background: #767066;
+    font-size: 1.6rem;
+    color: #d4cbbc;
+    font-weight: 600;
+    position: relative;
+    padding: 1.2rem 1.7rem;
+}
+
+.option-bar p,
+.option-bar .see-all{
+    display: inline-block;
+   
+}
+.see-all{
+    position: absolute;
+    right: 2rem;
+    
+}
+.see-all a{
+    color: #d4cbbc;
+}
+.see-all a span{
+    margin-left: 0.5rem;
+}
+
+.activity{
+    line-height: 2rem;
+    width: 100%;
+}
+
+.activity h2{
+    font-size: 1.8rem;
+    margin-bottom: 0.4rem;
+    
+}
+
+.activity p{
+    font-size: 1.3rem;
+    color: #939393;
+}
+
+.activity ul{
+   position: relative;
+    width: 100%;
+   
+}
+.activity ul li{
+    height: 9rem;
+    width: 100%;
+    background: #fff;
+    padding: 2.3rem 1.7rem;
+}
+
+.activity ul li:last-child{
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+.activity ul li .activity-description,
+.activity ul li .costing{
+    display: inline-block;
+
+}
+.activity ul li .activity-description h2{
+    color: #2f2f2f;
+}
+
+
+
+.costing{
+    position: absolute;
+    right: 2rem;
+}
+
+/* ================== */
+/* right section */
+/* =================== */
 .right-side{
     width: 29rem;
     height: 100%;
-    background: #c9452b;
+    
     border-radius: 0.5rem;
 }
 
+
+.balance{
+    height: 10rem;
+    background: #638e43;
+    border-radius: 0.5rem;
+    color: #fff;
+    padding: 2rem;
+}
+
+.balance-description .title{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
